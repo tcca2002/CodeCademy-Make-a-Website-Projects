@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+body
+{
+		background-image: url("https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg");
+		background-size:   cover;
+}
+
+/* Header */
+.header {
+  height: 60;
+  padding: 10;
+  background-color: rgba(0,0,0,.5)
+}
+
+.header .container li{
+	list-style-type:none;
+}
+
+.nav {
+	display: inline-block;
+	}
+	
+.nav li {
+	display:inline;
+	}
+
+.container {
+  max-width:940px;
+}
+
+/* Header */
+.header {
+  padding: 10px 0;
+}
+.header .container {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
