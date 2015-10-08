@@ -24,14 +24,32 @@ html, body {
   color:#fff;
 }
 
+.section ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+}
 
 /* Jumbotron */
 .jumbotron {
   height: 500px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg");
+background-repeat: no-repeat;
+  background-size: cover;
 }
 
+  .jumbotron h2 {
+	color: white;
+	text-align: right;
+	font-size: 50px;
+ }
 
+   .container .""btn  btn-default"
+  {
+    	color: blue;
+    margin-top:10px;
+  }
+  
 /* Banner */
 .banner, .supporting {
   text-align: center;
@@ -42,6 +60,12 @@ html, body {
   background-color:#36343f;
   height:180px; 
   color: #fff;
+}
+
+.header
+{
+	background-color:#eeeeee;
+}
 }
 
 /* Media Queries */
@@ -60,15 +84,5 @@ html, body {
 
   .nav-pills li:first-child a  {
     margin-left: 0;
-  }
-  .jumbotron h2 {
-	color: white;
-	text-align: right;
- }
-  
-  .container a 
-  {
-    	color= blue;
-    margin-top:10px;
   }
   
