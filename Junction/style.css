@@ -13,8 +13,7 @@ body
 /* Header */
 
 .header {
-  background-color: rgba(0,0,0,.5)
-  margin: 50px;
+  background-color: rgba(0,0,0,.5);
 }
 
 .header ul{
@@ -30,7 +29,11 @@ body
 	display:inline;
 	margin:40px;
 	text-decoration: none;
-	}
+}
+	
+.header li a {
+	color: white;
+}
 
 .header img {
   height: 28px;
@@ -38,6 +41,7 @@ body
 
 .header a:hover {
     text-decoration: none;
+}
 
 
 /* Jumbotron */
@@ -45,10 +49,42 @@ body
   position: relative;
   top: 50px;
   text-shadow: 0 2px 3px rgba(0,0,0,.4);
-}
+  background-color: transparent;
+  }
+  
+  .jumbotron h1 {
+	  text-align: center;
+	  color: white;
+  }
+  
 
 /* Supporting */
 .supporting {
   margin-top: 40px;
   text-shadow: 0 2px 3px rgba(0,0,0,.4);
+
+}
+
+.supporting li {
+	list-style-type: none;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+
+.supporting li h2 {
+	font-size: 30px;
+}
+
+.supporting img {
+	height:120px;
+}
+
+.supporting .btn {
+	padding: 10px 40px;
+	
+}
+
+.b {
+	text-align: center;
 }
