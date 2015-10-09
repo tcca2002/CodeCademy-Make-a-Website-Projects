@@ -11,37 +11,34 @@ body
 }
 
 /* Header */
+
 .header {
-  height: 60;
-  padding: 10;
   background-color: rgba(0,0,0,.5)
+  margin: 50px;
 }
 
-.header .container li{
+.header ul{
 	list-style-type:none;
+	margin-top:10px;
 }
-
-.nav {
-	display: inline-block;
-	}
-	
-.nav li {
-	display:inline;
-	}
 
 .container {
   max-width:940px;
 }
 
-/* Header */
-.header {
-  padding: 10px 0;
+.header li {
+	display:inline;
+	margin:40px;
+	text-decoration: none;
+	}
+
+.header img {
+  height: 28px;
 }
-.header .container {
-  display: inline-block;
-  width: 200px;
-  height: 100px;
-}
+
+.header a:hover {
+    text-decoration: none;
+
 
 /* Jumbotron */
 .jumbotron {
