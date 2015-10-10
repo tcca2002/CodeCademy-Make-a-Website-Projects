@@ -87,4 +87,13 @@ body
 
 .b {
 	text-align: center;
+	font-size:12px;
+}
+
+.b button {
+	background-color:rgba(0,255,188,0.5);
+}
+
+.btn-primary:hover {
+	background-color:rgb(51, 102, 153);
 }
