@@ -15,3 +15,25 @@ html, body {
     width: 100%;
   }
 }
+
+.header {
+	background-color:#30627E;
+	padding: 12px;
+}
+
+.header .container ul{
+	list-style-type: none;
+	text-align:center;
+}
+
+.header .container li{
+	display: inline;
+	padding:25px;
+	font-size:20px;
+	color:#FFFFFF;
+}
+
+.header .container li:first-child{
+	background-color:#E52364;
+	font-size:30px;
+}
