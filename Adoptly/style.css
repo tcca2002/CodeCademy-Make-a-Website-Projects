@@ -37,3 +37,17 @@ html, body {
 	background-color:#E52364;
 	font-size:30px;
 }
+
+.jumbotron {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover%;
+	background-position: center;
+	height: 500px;
+}	
+
+.jumbotron .container h1 {
+	color:#E52364;
+	text-align: center;
+	font-weight: bold;
+}
