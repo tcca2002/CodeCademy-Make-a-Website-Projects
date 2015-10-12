@@ -65,3 +65,45 @@ html, body {
 	color:#336CB2;
 	border-color:#30627E;
 }
+
+.supporting {
+	height: 400px;
+}
+
+.footer {
+	background-color:#e52364;
+	color:#FCF8FF;
+	height: 80px;
+}
+
+.footer .container .row {
+	margin-top:25px;
+}
+
+.footer .container .btn {
+	background-color: transparent;
+	border: none;
+}
+
+.footer .container .btn:hover {
+	background-color: #EEEEEE;
+}
+
+.footer .container p {
+	margin-top: 10px;
+}
+
+.footer ul li {
+	list-style-type: none;
+	display:inline;
+	}
+	
+
+.footer a:hover {
+	text-decoration: none;
+}
+
+.footer .btn {
+	padding: 10px; 20px;
+		color:#FEF8FF;
+}
