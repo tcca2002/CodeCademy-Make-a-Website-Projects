@@ -71,6 +71,7 @@ html, body {
 .header .container .nav {
 	border-bottom-style: solid;
 	border-bottom-color: #EEEEEE;
+	border-width:1px;
 }
 
 .abc {
