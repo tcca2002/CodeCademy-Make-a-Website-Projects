@@ -26,3 +26,10 @@ body {
 	background-image: url("https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg");
 	background-size:cover;
 }
+
+.btn, .btn:hover, .btn:focus, .btn:active {
+	background-color:#295F4B;
+	border: 0px;
+	color:white;
+	outline: 0;
+}
