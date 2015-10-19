@@ -27,9 +27,46 @@ body {
 	background-size:cover;
 }
 
+.main {
+	margin-top:50px;
+}
+
+.main .container h1 {
+	color:white;
+}
+
+.main .container .form-group {
+	color:white;
+}
+
 .btn, .btn:hover, .btn:focus, .btn:active {
 	background-color:#295F4B;
 	border: 0px;
 	color:white;
 	outline: 0;
+}
+
+.form-control {
+	border:0px;
+	border-radius:0px;
+}
+
+.footer .container {
+	border-top-width: 1px;
+	border-top-style:solid;
+	border-top-color:white;
+	margin-top:50px;
+}
+
+.footer .container li {
+	color: white;
+	list-style-type:none;
+	display:inline;
+	margin-right:10px;
+	float:left;
+}
+
+.footer .container ul {
+	margin-top:20px;
+	padding:0px;
 }
