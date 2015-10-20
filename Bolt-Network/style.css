@@ -1,0 +1,57 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+
+.supporting {
+  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+}
+
+.main .container img{
+	height: 35px;
+}
+
+.main {
+	background-color:#000000;
+	height:600px;
+}
+
+.main .container .row {
+	margin-top:50px;
+}
+
+.main .container .col-sm-4 {
+	display:inline;
+	}
+	
+.main .container .col-sm-4 a button:hover {
+	background-color:#0393FF;
+}
+	
+.main .container .col-sm-4 a button {
+	background-color:transparent;
+	color:white;
+}
+
+.main .container h1 {
+	text-align: center;
+	color:white;
+	font-size:60px;
+}
+
+.main .container .col-md-12 {
+	margin-top:30px;
+}
+
+.main .container .col-md-12 .btn {
+	color:#0393ff;
+	background-color:transparent;
+	
+}
