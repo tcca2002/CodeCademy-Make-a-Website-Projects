@@ -30,14 +30,24 @@ html, body {
 .main .container .col-sm-4 {
 	display:inline;
 	}
-	
-.main .container .col-sm-4 a button:hover {
-	background-color:#0393FF;
-}
-	
-.main .container .col-sm-4 a button {
+
+.main .container .col-sm-4 a:first-child button {
 	background-color:transparent;
 	color:white;
+	border-width:0px;
+}
+	
+.main .container .col-sm-4 a:nth-child(2) button:hover {
+	background-color:#0393FF;
+	color:white;
+}
+	
+.main .container .col-sm-4 a:nth-child(2) button {
+	background-color:transparent;
+	color:#0393ff;
+	border-style:solid;
+	border-width:1px;
+	border-color:#0393ff;
 }
 
 .main .container h1 {
@@ -46,12 +56,51 @@ html, body {
 	font-size:60px;
 }
 
-.main .container .col-md-12 {
+.main .container .col-md-12 .btn{
 	margin-top:30px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#0393ff;
+}
+
+.main .container .col-md-12 .btn:hover{
+	border-color:#0393ff;
+	background-color:#0393FF;
+	color:white;
 }
 
 .main .container .col-md-12 .btn {
 	color:#0393ff;
 	background-color:transparent;
-	
+}
+
+.form-inline {
+	text-align:center;
+	margin-top: 100px;
+}
+
+.form-control {
+	border-width:0 0 1px 0;
+	background-color:transparent;
+}
+
+.form-control:hover {
+	border-color:#0393ff;
+}
+
+
+.main .container  input {
+	border-radius:0px;
+}
+
+.main .container .form-inline .btn {
+	background-color:transparent;
+	color:#0393ff;
+	border-color:#0393ff;
+}
+
+.main .container .form-inline .btn:hover {
+	border-color:#0393ff;
+	background-color:#0393FF;
+	color:white;
 }
