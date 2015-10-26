@@ -104,3 +104,12 @@ html, body {
 	background-color:#0393FF;
 	color:white;
 }
+
+.row {
+	margin-top:20px;
+}
+
+.feature {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg");
+	height:400px;
+}
