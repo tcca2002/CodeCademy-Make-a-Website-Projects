@@ -113,3 +113,16 @@ html, body {
 	background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg");
 	height:400px;
 }
+
+.feature .container {
+	text-align:center;
+}
+
+.feature .container h1 {
+	margin-top: 100px;
+	color:#0393EF;
+}
+
+.feature .container p {
+	color:#EFEFC3;
+}
